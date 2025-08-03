@@ -1,0 +1,84 @@
+<html >
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire d'inscription</title>
+</head>
+<body>
+  <h2>Formulaire d'inscription</h2>
+
+  <form>
+    <label>Nom*</label><br>
+    <input type="text" name="nom" required><br><br>
+
+    <label>Prenom*</label><br>
+    <input type="text" name="prenom" required><br><br>
+
+    <label>Sexe*:</label><br>
+  <input type="radio" id="masculin" name="sexe" value="masculin">
+  <label for="masculin">Masculin</label><br>
+  <input type="radio" id="feminin" name="sexe" value="feminin">
+  <label for="feminin">Féminin</label><br><br>
+
+
+    <label>Age*</label><br>
+    <input type="number" name="age" required><br><br>
+
+    <label>Nationalité*</label><br>
+    <input type="text" name="nationalite" required><br><br>
+	
+ 
+    <label for="phone">Numéro de téléphone*:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="pays">Pays*:</label>
+    <select id="pays" name="pays" required>
+    <option value="">Choisissez un pays</option>
+    <option value="HT">Haïti</option>
+    <option value="FR">France</option>
+    <option value="US">États-Unis</option>
+    <option value="CA">Canada</option>
+    <option value="CI">Republique Dominicaine</option>
+  </select><br><br>
+
+    <label for="email">Email*:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Option choisie*:</label><br>
+    <select name="option" required>
+      <option value="">Choisissez</option>
+      <option value="informatique">Informatique</option>
+      <option value="comptabilité">Comptabilité</option>
+      <option value="Couture">Couture</option>
+	  <option value="macrame">Macrame</option>
+	  <option value="Art Floral">Art Floral</option>
+	  <option value="Cosmetologie">Cosmetologie</option>
+	  <option value="Programmation">Programmation</option>
+    </select><br><br>
+
+    <label>Niveau d'étude*:</label><br>
+    <select name="niveau" required>
+      <option value="">Choisissez</option>
+      <option value="7eme AF">7eme AF</option>
+      <option value="8eme AF">8eme AF</option>
+      <option value="9eme AF">9eme AF</option>
+	  <option value="NSI">NSI</option>
+	  <option value="NSII">NSII</option>
+	  <option value="NSIII">NSIII</option>
+	  <option value="NSIV">NSIV</option>
+	  <option value="universitaire">Universitaire</option>
+	  
+	  
+    </select><br><br>
+
+    <label>Commentaires</label><br>
+    <textarea name="commentaire" rows="4" cols="40" required></textarea><br><br>
+
+    <button type="submit">Envoyer ma candidature</button>
+  </form>
+</body>
+</html>
+
+
+
+<html> 
